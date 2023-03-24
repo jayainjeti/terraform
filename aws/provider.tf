@@ -9,10 +9,4 @@ terraform {
 
 provider "aws" {
 
-
-}
-
-resource "aws_iam_user" "terraform" {
-  name = "terraform"
-  path = "/"
 }
